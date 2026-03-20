@@ -6,15 +6,18 @@
 
 int main(){
 
-    char hedef_kelime[15];
-    char dosya_adi[15];
+    char hedef_kelime[1oo];
+    char dosya_adi[50];
     char satir[333];
     int satirNo=0,tekrar_sayisi=0;
 
 
 
-    printf("Aramak istediginiz kelimeyi giriniz:");
-    scanf("%s",hedef_kelime);
+   
+    printf("Aramak istediginiz kelime veya cumleyi giriniz: ");
+    // ÖNEMLİ DEĞİŞİKLİK: fgets ile tüm satırı (boşluklar dahil) alıyoruz
+    fgets(hedef_kelime, sizeof(hedef_kelime), stdin);
+    hedef_kelime[strcspn(hedef_kelime, "\n")] = 0; // Sondaki Enter karakterini siler
 
     printf("Hangi dosyada ariyorsunuz?");
     scanf("%s",dosya_adi);
@@ -54,7 +57,7 @@ int main(){
         char *ptr=strstr(satir,hedef_kelime);
         while(ptr!=NULL){
             tekrar_sayisi++;// toplam tekrar sayisini yaazdirdigimizda bu kisim yazilacak...
-            printf("Kelime %d. satirda bulundu!\n",satirNo);
+            printf("Kelime/cumle %d. satirda bulundu!\n",satirNo);
 
             ptr = strstr(ptr + strlen(hedef_kelime), hedef_kelime);/// buldugumuz kelime uzunlugu kadar ileri atliyor oradan okumaya deva ediyor dongu herseyy bitince bitmis oluyor...
         }
