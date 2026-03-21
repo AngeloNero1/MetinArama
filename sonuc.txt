@@ -1,0 +1,30 @@
+=== METIN ARAMA RAPORU ===
+Aranan kelime: veli
+
+1. satirda 1 kez bulundu.
+Satir: Veli bugün okula gitti
+
+2. satirda 1 kez bulundu.
+Satir: Ali de okula gitti ama veli evde kalmak istedi
+
+4. satirda 1 kez bulundu.
+Satir: Veli arkadaşlarıyla futbol oynadı
+
+6. satirda 1 kez bulundu.
+Satir: veli bazen ders çalışmayı sevmez
+
+7. satirda 1 kez bulundu.
+Satir: Bugün veli çok yoruldu ama yine de dışarı çıktı
+
+8. satirda 1 kez bulundu.
+Satir: Okulda öğretmen veliye soru sordu
+
+9. satirda 1 kez bulundu.
+Satir: Ali ve Veli birlikte proje yaptı
+
+11. satirda 1 kez bulundu.
+Satir: VELI bazen büyük harfle de yazılabilir
+
+=== OZET ===
+Kelimenin gectigi satir sayisi: 8
+Kelimenin toplam gecis sayisi: 8
